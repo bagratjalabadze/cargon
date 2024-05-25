@@ -1,0 +1,648 @@
+.header {
+    width: 1440px;
+    height: 78.06px;
+    justify-content: space-between;
+    padding: 20px, 60px, 20px, 60px;
+}
+
+.cargon {
+    margin-left: 50px;
+    margin-top: 15px;
+    width: 130px;
+    height: 38.06px;
+}
+
+.links {
+    width: 461px;
+    height: 36px;
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-top: 15px;
+    margin-right: -25px;
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+}
+
+.header {
+    display: flex;
+}
+
+.span {
+    color: black;
+}
+
+.buttonofheader {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 44px;
+    width: 170px;
+}
+
+.button {
+    height: 32px;
+    width: 114px;
+    background-color: rgb(34, 230, 0);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.button a {
+    color: aliceblue;
+}
+
+.icons {
+    display: flex;
+    width: 44px;
+    height: 20px;
+    margin-left: 12px;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
+
+.icons i {
+    width: 20px;
+    height: 20px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons a {
+    width: 20px;
+    height: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.caption {
+    position: absolute;
+    bottom: 0;
+    left: 80px;
+    color: white; 
+    padding: 10px; /* dashoreba sityvebs shoris */
+    font-size: 48px;
+    line-height: 58.51px;
+    font-weight: 900;
+
+}
+
+.image-container {
+    width: 100%;
+    height: 687px;
+}
+
+.secondpart {
+    width: 1440px;
+    height: 476px;
+    gap: 48px;
+    margin-top: 30px;
+}
+
+.textsofsecondpart {
+    width: 648px;
+    height: 280px;
+    gap: 32px;
+}
+
+.innovative {
+    width: 648px;
+    height: 280px;
+    gap: 32px;
+}
+
+.inntext {
+    margin-top: 75px;
+    width: 273px;
+    height: 23px;
+    border-radius: 36px;
+    gap: 10px;
+    background-color: #F0FCF7;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sea {
+    display: flex;
+    gap: 15px;
+    margin-top: 0px;
+    width: 648px;
+    height: 49px;
+    margin-top: -20px;
+}
+
+.sea h1 {
+    font-size: 40px;
+}
+
+.fiveline {
+    width: 648px;
+    height: 100px;
+    gap: 24px;
+    margin-top: -190px;
+}
+
+.fiveline a {
+    font-weight: 400;
+    size: 16px;
+    line-height: 20px;
+}
+
+.solution {
+    color: rgb(54, 181, 62);
+}
+
+.button2 {
+    display: flex;
+    border: 1px solid #00B56C;
+    gap: 15px;
+    width: 166px;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    gap: 8px;
+}
+
+.getstarted2 {
+    text-decoration: none;
+    color: #00B56C;
+    gap: 8px;
+}
+
+.photoofship {
+    border-radius: 8px;
+    width: 648px;
+    height: 380px;
+}
+
+.secondpart {
+    display: flex;
+    padding-top: 50px;
+    gap: 48px;
+    justify-content: center;
+    width: 1440px;
+    height: 476px;
+}
+
+.textsofsecondpart {
+    width: 648px;
+    height: 280px;
+    gap: 32px;
+}
+
+/* aqedan iwyeba centraluri nawili */
+
+.centralpart {
+    margin-top: -50px;
+    width: 1320px;
+    height: 248px;
+    margin-left: 60px;
+    border-radius: 33px;
+    padding: 48px, 0px, 48px, 0px;
+    gap: 24px;
+    background: var(--primary-content, #2B353A);
+    display: flex;
+}
+
+.seafreight {
+    width: 404.33px;
+    height: 160px;
+    gap: 12px;
+    padding-top: 40px;
+}
+
+.seafreight svg {
+    height: 48px;
+    width: 56.62px;
+    margin-left: 180px;
+}
+
+.seafreight h2 {
+    height: 24px;
+    width: 404.33px;
+    gap: 4px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.seafreight a{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+/* aqedan iwyeba contact is nawili */
+
+.contact {
+    display: flex;
+    width: 1440px;
+    height: 519px;
+    margin-top: 50px;
+    gap: 100px;
+    padding-left: 60px;
+}
+
+.thirdphoto {
+    width: 685px;
+    height: 423px;
+    border-radius: 8px;
+}
+
+.title {
+    width: 585px;
+    height: 423px;
+    gap: 24px;
+}
+
+.letstalk {
+    width: 72px;
+    height: 20px;
+    margin-left: 8px;
+}
+
+.content {
+    width: 403px;
+    height: 75px;
+    gap: 16px;
+}
+
+.box {
+    width: 12px;
+    height: 12px;
+    background-color: #00B56C;
+}
+
+.boxandtext {
+    width: 90px;
+    height: 20px;
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.getin {
+    width: 333px;
+    height: 39px;
+    font-size: 35px;
+    margin-top: 8px;
+}
+
+.stayin{
+    width: 585px;
+    height: 36px;
+}
+
+.stayin a {
+    font-weight: 400;
+    size: 14px;
+    line-height: 18px;
+}
+
+.way {
+    margin-top: 5px;
+}
+
+.frame {
+    width: 600px;
+    height: 221px;
+    gap: 16px;
+}
+
+body {
+    background-color: #FFFFFF;
+}
+
+.container {
+    max-width: 260px;
+    height: 254px;
+    border-radius: 8px;
+    border-radius: 1px solid black;
+    margin-top: 20px;
+}
+
+.custom-select {
+    width: 260px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+    background-color: white;
+    appearance: none; 
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-size: 12px;
+    cursor: pointer;
+    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23333%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4%206l4%204%204-4%22/%3E%3C/svg%3E');
+}
+
+.custom-select option {
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: 20px 20px;
+}
+
+.tbilisi {
+    width: 600px;
+    height: 161px;
+    padding: 8px, 0px, 9px, 0px;
+    gap: 12px;
+    margin-top: -10px;
+}
+
+.tbilisioffice {
+    width: 600px;
+    height: 29px;
+    padding: 8px, 12px, 0px, 12px;
+    gap: 10px;
+    font-size: 27px;
+}
+
+.adress {
+    width: 600px;
+    height: 104px;
+    gap: 8px;
+}
+
+.addinfos {
+    width: 600px;
+    height: 104px;
+    gap: 8px;
+    margin-top: -30px;
+}
+
+.textsofmail {
+    margin-left: 30px;
+}
+
+.textsofmail a {
+    display: flex;
+    margin-top:  -20px;
+}
+
+.meili svg {
+    margin-top: 25px;
+}
+
+.lokacia svg {
+    margin-top: 25px;
+}
+
+.meili {
+    display: flex;
+    align-items: center;
+}
+
+.lokacia {
+    display: flex;
+    align-items: center;
+}
+
+.sakontaqto {
+    display: flex;
+    align-items: center;
+}
+
+.sakontaqto svg {
+    margin-top: 25px;
+}
+
+.textsofcall {
+    margin-left: 25px;
+}
+
+.textsofcall h4 {
+   display: flex;
+   margin-top:  40px;
+}
+
+.textsofcall div {
+    margin-top: -20px;
+}
+
+.textsofcall a {
+    display: flex;
+}
+
+.informations {
+    display: flex;
+}
+
+.buttons {
+    background-color: #00B56C;
+    width: 155px;
+    height: 32px;
+    border-radius: 4px;
+    gap: 8px;
+    margin-top: 38px;
+}
+
+.talkto {
+    justify-content: center;
+    display: flex;
+    text-decoration: none;
+    color: white;
+    padding-top: 5px;
+}
+
+.sakontaqto {
+    margin-left: 50px;
+}
+
+.footerph {
+    width: 100%;
+    height: 375px;
+}
+
+.ftcargon {
+    position: absolute;
+    display: flex;
+    margin-top: -350px;
+    margin-left: 60px;
+}
+
+.logoss {
+    position: absolute;
+    height: 24px;
+    width: 104px;
+    gap: 16px;
+    display: flex;
+    margin-top: -100px;
+    margin-left: 60px;
+    display: flex;
+}
+
+.logoss i {
+    width: 50px;
+    height: 50px;
+    color: white;
+    display: flex;
+}
+
+.road {
+    width: 354px;
+    height: 125px;
+    gap: 12px;
+}
+
+.road h4 {
+    position: absolute;
+    color: white;
+    margin-top: -345px;
+    margin-left: 330px;
+    font-size: 25px;
+}
+
+.roadtexts {
+    position: absolute;
+    color: white;
+    margin-top: -300px;
+    margin-left: 330px;
+} 
+
+.insurance {
+    width: 354px;
+    height: 209px;
+    gap: 12px;
+    margin-top: -500px;
+    margin-left: 700px;
+}
+
+.insurance h4 {
+    color: white;
+    font-size: 25px;
+}
+
+.instexts {
+    color: white;
+}
+
+.stayup {
+    position: absolute;
+    width: 300px;
+    height: 141px;
+    gap: 12px;
+    margin-left: 1120px;
+    margin-top: -240px;
+    color: white;
+}
+
+.stayup h4 {
+    color: white;
+    font-size: 25px;
+}
+
+.entermail {
+    width: 300px;
+    height: 44px;
+    background-color: white;
+    border-radius: 4px;
+    border: 1px solid #A8ACAE;
+    display: flex;
+    align-items: center;
+}
+
+.entermail a{
+    color: #A8ACAE;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+}
+
+.subscribe {
+    margin-top: 20px;
+    width: 300px;
+    height: 44px;
+    background-color: #00B56C;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.subscribe a{
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    width: 81px;
+    height: 20px;
+    gap: 8px;
+}
+
+.downloadlogos {
+    display: flex;
+    width: 302px;
+    height: 40px;
+    gap: 32px;
+    margin-left: 1120px;
+}
+
+.line {
+    position: absolute;
+    height: 2px;
+    width: 1500px;
+    background-color: #4F575B;
+    margin-top: 20px;
+}
+
+.lastpart {
+    width: 1439px;
+    height: 56px;
+    justify-content: space-between;
+}
+
+.lastpart a {
+    margin-top: 45px;
+    margin-left: 60px;
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 14.63px;
+    color: #EAEBEB;
+}
+
+.english {
+    display: flex;
+    width: 92px;
+    height: 24px;
+    gap: 16px;
+    margin-left: 1300px;
+    align-items: center;
+}
+
+.english .fa-solid {
+    color: white;
+    width: 24px;
+    height: 24px;
+    margin-bottom: 25px;
+    margin-left: 30px;
+}
+
+.english a {
+    color: white;
+    margin-bottom: 80px;
+    margin-left: -10px;
+}
