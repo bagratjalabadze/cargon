@@ -1,0 +1,18 @@
+.btn-primary {
+    height: 32px;
+    padding: 0px 16px 0px 16px;
+    border-radius: 4px;
+    background-color: var(--primary);
+    color: white;
+    font-size: 0.87rem;
+    font-family: "Montserrat-Medium";
+    cursor: pointer;
+}
+
+.btn-primary.small {
+    width: 114px;
+}
+
+.btn-primary.large {
+    width: 300px;
+}

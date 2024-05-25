@@ -1,48 +1,68 @@
-.header {
-    width: 1440px;
-    height: 78.06px;
+@import url('./fonts.css');
+@import url('./reset.css');
+@import url('./common.css');
+@import url('./variables.css');
+
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
+
+body {
+    font-family: "Montserrat-Regular";
+    color: black;
+}
+
+.layout {
+    width: 100%;
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    height: 78px;
+    padding: 0 60px;
+    display: flex;
     justify-content: space-between;
-    padding: 20px, 60px, 20px, 60px;
 }
 
-.cargon {
-    margin-left: 50px;
-    margin-top: 15px;
-    width: 130px;
-    height: 38.06px;
+header .logo {
+    display: flex;
+    align-items: center;
 }
 
-.links {
-    width: 461px;
-    height: 36px;
+
+.right-panel {
+    display: flex;
+    align-items: center;
+}
+
+
+.right-panel nav {
     display: flex;
     gap: 24px;
-    justify-content: center;
-    align-items: center;
-    margin-left: auto;
-    margin-top: 15px;
-    margin-right: -25px;
+    font-family: "Montserrat-Bold";
+    font-size: 0.8rem;
 }
 
-.links a {
-    text-decoration: none;
-    color: black;
+.right-panel>a {
+    margin-left: 32px;
+    margin-right: 12px;
 }
 
-.header {
-    display: flex;
+.main-banner {
+    position: relative;
 }
 
-.span {
-    color: black;
+.main-banner img {
+    width: 100%;
 }
 
-.buttonofheader {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 44px;
-    width: 170px;
+.main-banner h2 {
+    position: absolute;
+    bottom: 18px;
+    left: 58px;
+    color: white;
+    font-family: "Montserrat-Bold";
+    font-size: 3rem;
 }
 
 .button {
@@ -87,22 +107,9 @@
     align-items: center;
 }
 
-.caption {
-    position: absolute;
-    bottom: 0;
-    left: 80px;
-    color: white; 
-    padding: 10px; /* dashoreba sityvebs shoris */
-    font-size: 48px;
-    line-height: 58.51px;
-    font-weight: 900;
 
-}
 
-.image-container {
-    width: 100%;
-    height: 687px;
-}
+
 
 .secondpart {
     width: 1440px;
@@ -242,7 +249,7 @@
     justify-content: center;
 }
 
-.seafreight a{
+.seafreight a {
     font-weight: 500;
     font-size: 16px;
     line-height: 20px;
@@ -308,7 +315,7 @@
     margin-top: 8px;
 }
 
-.stayin{
+.stayin {
     width: 585px;
     height: 36px;
 }
@@ -348,7 +355,7 @@ body {
     border: 1px solid #ccc;
     font-size: 16px;
     background-color: white;
-    appearance: none; 
+    appearance: none;
     background-position: right 10px center;
     background-repeat: no-repeat;
     background-size: 12px;
@@ -398,7 +405,7 @@ body {
 
 .textsofmail a {
     display: flex;
-    margin-top:  -20px;
+    margin-top: -20px;
 }
 
 .meili svg {
@@ -433,8 +440,8 @@ body {
 }
 
 .textsofcall h4 {
-   display: flex;
-   margin-top:  40px;
+    display: flex;
+    margin-top: 40px;
 }
 
 .textsofcall div {
@@ -519,7 +526,7 @@ body {
     color: white;
     margin-top: -300px;
     margin-left: 330px;
-} 
+}
 
 .insurance {
     width: 354px;
@@ -563,7 +570,7 @@ body {
     align-items: center;
 }
 
-.entermail a{
+.entermail a {
     color: #A8ACAE;
     display: flex;
     align-items: center;
@@ -581,7 +588,7 @@ body {
     justify-content: center;
 }
 
-.subscribe a{
+.subscribe a {
     color: white;
     display: flex;
     align-items: center;
