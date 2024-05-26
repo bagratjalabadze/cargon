@@ -1,14 +1,8 @@
-@import url('./fonts.css');
-@import url('./reset.css');
-@import url('./common.css');
-@import url('./variables.css');
-
-@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css');
-
 body {
     font-family: "Montserrat-Regular";
     color: black;
 }
+
 
 .layout {
     width: 100%;
@@ -63,8 +57,119 @@ header .logo {
     color: white;
     font-family: "Montserrat-Bold";
     font-size: 3rem;
+    max-width: 60%;
 }
 
+.customers-support {
+    display: flex;
+    gap: 50px;
+    justify-content: space-between;
+}
+
+.customers-support .banner-place {
+    flex: 1;
+}
+
+.customers-support .banner-place img {
+    width: 100%;
+}
+
+.customers-support .action-area {
+    flex: 1;
+}
+
+.customers-support .action-area .title {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.customers-support .action-area .box {
+    width: 12px;
+    height: 12px;
+    background-color: var(--primary);
+}
+
+.customers-support .action-area .text {
+    font-size: 1rem;
+    font-family: "Montserrat-Medium";
+}
+
+.customers-support .action-area .message {
+    font-size: 2rem;
+    font-family: "Montserrat-Bold";
+    margin: 16px 0 11px 0px;
+}
+
+.customers-support .action-area .description {
+    font-size: 0.87rem;
+}
+
+.countries-drop-down {
+    margin-top: 24px;
+    position: relative;
+    width: 320px;
+}
+
+.countries-drop-down .selected-option {
+    width: 100%;
+    height: 44px;
+    padding: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #BFBFCD;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.countries-drop-down .selected-option .country-name {
+    font-size: 1rem;
+}
+
+.countries-drop-down .selected-option .arrow {}
+
+.countries-drop-down .options {
+    width: 81%;
+    height: 254px;
+    border: 1px solid #C7C7D3;
+    border-radius: 8px;
+    overflow-y: scroll;
+}
+
+.options::-webkit-scrollbar {
+
+    width: 6px;
+    background: #E1E1E1;
+    -webkit-border-radius: 8px;
+}
+
+.options::-webkit-scrollbar-thumb {
+    background: #393812;
+    -webkit-border-radius: 8px;
+}
+
+.countries-drop-down .option {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    height: 32px;
+    padding: 6px 0 6px 16px;
+    cursor: pointer;
+    transition: background-color 0.15s;
+}
+
+.countries-drop-down .option:hover {
+    background-color: var(--primary50);
+}
+
+.countries-drop-down .option .name {
+    color: #32315E;
+    font-family: "Montserrat-Medium";
+}
+
+
+/* 
 .button {
     height: 32px;
     width: 114px;
@@ -212,7 +317,6 @@ header .logo {
     gap: 32px;
 }
 
-/* aqedan iwyeba centraluri nawili */
 
 .centralpart {
     margin-top: -50px;
@@ -259,7 +363,6 @@ header .logo {
     color: white;
 }
 
-/* aqedan iwyeba contact is nawili */
 
 .contact {
     display: flex;
@@ -652,4 +755,4 @@ body {
     color: white;
     margin-bottom: 80px;
     margin-left: -10px;
-}
+} */
