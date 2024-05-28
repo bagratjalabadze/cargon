@@ -64,35 +64,34 @@ header .logo {
 
 .future-soloutions-place {
     display: flex;
-    width: 82.5rem;
-    height: 380px;
+    max-width: 1440px;
+    width: 100%;
     justify-content: space-between;
     gap: 24px;
-    margin: 48px 48px 48px 48px;
+    padding: 0px 48px;
+    margin: 48px 0 0 0;
 }
 
 .future-soloutions {
-    background-color: var(--primary4);
-    height: 23px;
-    width: 18rem;
-    border-radius: 36px;
-    margin: 48px 16px 48px 0;
+    margin: 48px 0 0 0;
 }
 
 .future-soloutions .text {
+    background-color: var(--primary4);
+    width: 41%;
+    border-radius: 36px;
+    padding: 4px 8px;
     font-size: 0.75rem;
     color: var(--primary);
-    padding: 4px 8px 4px 8px;
     font-size: 0.75rem;
     font-family: "Montserrat-Medium"
 }
-
+  
 .future-soloutions .header-text {
     display: flex;
-    width: 40.5rem;
-    height: 49px;
+    width: 90% ;
     gap: 15px;
-    margin: 4px 0 32px 0;
+    margin: 4px 0;
 }
 
 .future-soloutions .header-text div{
@@ -105,33 +104,27 @@ header .logo {
 }
 
 .main-text {
-    font-size: 1rem;
     font-family: "Montserrat-Light";
-    line-height: 20px;
     gap: 1.5rem;
-    width: 40.5rem;
-    height: 100px;
+    width: 90%;
+    margin: 32px 0;
 }
 
-.btn-future-soloutions {
-    margin: 32px 0 0 0;
-    width: 10.3rem;
-    height: 40px;
-    border-radius: 4px;
-    border: 1px solid var(--primary);
-    background-color: white;
+.future-soloutions-place .future-soloutions a {
+    width: 24%;
     color: var(--primary);
-    font-size: 1rem;
-    gap: 8px;
     font-family: "Montserrat-Light";
-    cursor: pointer;
+    gap: 8px;
+    background-color: white;
+    border: 1px solid var(--primary);
+    border-radius: 4px;
+    padding: 8px 16px;
+    margin: 32px 0;
 }
 
 .future-soloutions a i {
     color: var(--primary);
-    height: 16px;
-    width: 1rem;
-    margin: 0 0 0 8px;
+    margin: 0 8px;
 }
 
 .ship {
@@ -144,58 +137,67 @@ header .logo {
 
 .central-placed-information {
     display: flex;
-    width: 82.5rem;
-    height: 248px;
-    margin: 0 60px 0 60px;
+    justify-content: center;
+    width: 100%;
+    max-width: 1320px;
+    margin: 48px 60px;
     gap: 24px;
     background-color: #2B353A;
     border-radius: 33px;
-    padding: 48px 24px 48px 24px;
+    padding: 48px 24px ;
 }
 
 .central-placed-information div {
-    width: 25.25rem;
-    height: 160px;
+    width: 31%;
     gap: 12px;
 }
 
 .central-placed-information div img {
-    width: 3.5rem;
-    height: 48px;
+    width: 14%;
     color: var(--primary);
-    margin: 0 0 0 160px;
+    margin: 0 160px; 
 }
 
 .central-placed-information div .header {
-    width: 25.25rem;
-    height: 24px;
+    width: 50%;
     gap: 4px;
     font-family: "Montserrat-SemiBold";
-    font-size: 20px;
     color: white;
-    margin: 16px 0 12px 80px;
+    margin: 16px 100px ;
+}
+
+/* the header of the central box wasn't positioned well so I
+connected it with class and changed its position */
+
+.central-placed-information .between-box .header {                  
+    width: 50%;
+    gap: 4px;
+    font-family: "Montserrat-SemiBold";
+    color: white;
+    margin: 16px 130px;
 }
 
 .central-placed-information div .main-text {
-    align-items: center;
-    width: 25.25rem;
-    height: 60px;
-    font-size: 16px;
-    line-height: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+    width: 100%;
     font-family: "Montserrat-Medium";
     color: #E1E1E1;
     display: flex;
     justify-content: center;
-    margin: 0 12px 0 12px;
+    margin: 0 12px;
 }
 
 /* forth section */
 
 .customers-support {
+    max-width: 1440px;
+    width: 100%;
     display: flex;
-    gap: 50px;
+    gap: 48px;
     justify-content: space-between;
-    margin: 48px 48px 48px 48px;
+    margin: 48px 48px;
 }
 
 .customers-support .banner-place {
@@ -204,7 +206,6 @@ header .logo {
 
 .customers-support .banner-place img {
     width: 100%;
-    height: 100%;
 }
 
 .customers-support .action-area {
@@ -218,24 +219,24 @@ header .logo {
 }
 
 .customers-support .action-area .box {
-    width: 12px;
-    height: 12px;
+    width: 0.75rem;
+    height: 0.75rem;
     background-color: var(--primary);
 }
 
 .customers-support .action-area .text {
-    font-size: 1rem;
     font-family: "Montserrat-Medium";
 }
 
 .customers-support .action-area .message {
+    width: 60%;
     font-size: 2rem;
     font-family: "Montserrat-Bold";
-    margin: 16px 0 11px 0px;
+    margin: 16px 0;
 }
 
 .customers-support .action-area .description {
-    font-size: 0.87rem;
+    width: 100%;
 }
 
 .countries-drop-down {
@@ -300,23 +301,22 @@ header .logo {
 }
 
 .header-text {
-    width: 9.75rem;
-    height: 29px;
+    width: 27%;
     gap: 10px;
     font-family: "Montserrat-Bold";
-    font-size: 24px;
-    margin: 24px 0px 12px 12px;
+    font-size: 24px; 
+    margin: 24px 0px;
 }
 
 /* section of mail */
 
 .mail-info {
+    width: 50%;
     display: flex;
 }
 
 .box-of-mail-logo {
-    width: 3rem;
-    height: 48px;
+    width: 8.3%;
     background-color: rgba(0, 181, 108, 0.1);
     border-radius: 50%;
     display: flex;
@@ -331,17 +331,15 @@ header .logo {
 }
 
 .mail-info .texts .header {
-    width: 4.5rem;
-    height: 15px;
-    margin: 2.5px 0px 8px 19px;
+    width: 100%;
+    margin: 2.5px 19px;
     font-family: "Montserrat-SemiBold";
     font-size: 12px
 }
 
 .mail-info .texts .main-text {
-    width: 7.8rem;
-    height: 20px;
-    margin: 0px 0px 2.5px 19px;
+    width: 100%;
+    margin: 2.5px 19px;
     font-family: "Montserrat-Light";
     font-size: 12px
 }
@@ -349,13 +347,13 @@ header .logo {
 /* section of location */
 
 .location-info {
+    width: 50%;
     display: flex;
-    margin: 8px 0 0 0;
+    margin: 8px 0;
 }
 
 .box-of-location-logo {
-    width: 3rem;
-    height: 48px;
+    width: 8.3%;
     background-color: rgba(0, 181, 108, 0.1);
     border-radius: 50%;
     display: flex;
@@ -370,31 +368,30 @@ header .logo {
 }
 
 .location-info .texts .header {
-    width: 6rem;
-    height: 15px;
-    margin: 2.5px 0px 8px 19px;
+    width: 100%;
+    margin: 2.5px 19px;
     font-family: "Montserrat-SemiBold";
     font-size: 12px
 }
 
 .location-info .texts .main-text {
-    width: 10.2rem;
-    height: 20px;
-    margin: 0px 0px 2.5px 19px;
+    width: 100%;
+    margin: 2.5px 19px;
     font-family: "Montserrat-Light";
-    font-size: 14px
+    font-size: 12px
 }
 
 /* section of contact */
 
 .contact-info {
+    width: 40%;
     display: flex;
-    margin: -105px 0 0px 330px;
+    margin: -90px 0;
+    float: right;
 }
 
 .box-of-contact-logo {
-    width: 3rem;
-    height: 48px;
+    width: 8.3%;
     background-color: rgba(0, 181, 108, 0.1);
     border-radius: 50%;
     display: flex;
@@ -409,40 +406,45 @@ header .logo {
 }
 
 .contact-info .texts .header {
-    width: 7.6rem;
-    height: 15px;
-    margin: 2.5px 0px 8px 19px;
+    width: 100%;
+    margin: 2.5px 19px;
     font-family: "Montserrat-SemiBold";
     font-size: 12px
 }
 
 .contact-info .texts .main-text {
-    width: 7.1rem;
-    height: 18px;
-    margin: 4px 0px 2.5px 19px;
+    width: 100%;
+    margin: 2.5px 19px;
     font-family: "Montserrat-Light";
-    font-size: 14px
+    font-size: 12px
 }
 
 .custumer-support-button {
-    height: 32px;
-    width: 9.7rem;
+    width: 27%;
     background-color: var(--primary);
     color: white;
     border-radius: 4px;
     gap: 8px;
-    padding: 8px 16px 8px 16px;
+    padding: 8px 16px;
     font-size: 14px;
-    margin: 136px 0 0 -520px;
+    margin: 15px 0 ;
     font-family: "Montserrat-Medium";
     cursor: pointer;
 }
 
 /* footer part */
 
+footer {
+    margin: 48px 48px;
+    max-width: 1440px;
+    height: 300px;
+    width: 100%;
+    position: absolute;
+}
+ 
 footer .bottom-area {
     width: 100%;
-    height: 375px;
+    height: 300px;
     position: absolute;
 }
 
@@ -452,54 +454,84 @@ footer .footer_logo {
     width: 11rem;
     height: 48px;
     margin: 24px 0 0 48px;
+    cursor: pointer;
 }
 
-footer .bottom-service {
+footer .footer_logo img:hover {
+    color: var(--primary50);
+    transition: 0.4s;
+}
+
+footer .bottom-service a{
     position: absolute;
     color: white;
-    margin: 24px 0 0 270px;
+    margin: 24px 0 0 330px;
 }
 
-footer .bottom-service .header {
+footer .bottom-service a .header {
     font-family: "Montserrat-Bold";
     font-size: 24px;
     width: 6rem;
     height: 29px;
     gap:10px;
     margin: 0 0 14px 0;
+    cursor: pointer;
 }
 
-footer .bottom-service .text {
+footer .bottom-service a .header:hover {
+    color: var(--primary50);
+    transition: 0.4s;
+}
+
+footer .bottom-service a .text {
     font-family: "Montserrat-Regular";
     height: 24px;
     gap: 8px;
     width: 7rem;
     font-size: medium;
     margin: 2px 0 2px 0;
+    cursor: pointer;
 }
 
-footer .bottom-company-infos {
+footer .bottom-service a .text:hover {
+    color: var(--primary50);
+    transition: 0.4s;
+}
+
+footer .bottom-company-infos a{
     position: absolute;
     color: white;
-    margin: 24px 0 0 565px;
+    margin: 24px 0 0 690px;
 }
 
-footer .bottom-company-infos .header {
+footer .bottom-company-infos a .header {
     font-family: "Montserrat-Bold";
     font-size: 24px;
     width: 6rem;
     height: 29px;
     gap:10px;
     margin: 0 0 14px 0;
+    cursor: pointer;
 }
 
-footer .bottom-company-infos .text {
+footer .bottom-company-infos a .header:hover {
+    color: var(--primary50);
+    transition: 0.4s;
+}
+
+footer .bottom-company-infos a .text {
     font-family: "Montserrat-Regular";
     height: 24px;
     gap: 8px;
     width: 12rem;
     font-size: 16px;
     margin: 2px 0 2px 0;
+    cursor: pointer;
+}
+
+footer .bottom-company-infos a .text:hover {
+    color: var(--primary50);
+    transition: 0.4s;
 }
 
 footer .registration-area {
@@ -507,7 +539,7 @@ footer .registration-area {
     width: 19rem;
     height: 141px;
     gap: 12px;
-    margin: 24px 0 0 1080px;
+    margin: 24px 0 0 880px;
 }
 
 footer .registration-area .header {
@@ -517,6 +549,12 @@ footer .registration-area .header {
     gap: 4px;
     font-size: 24px;
     font-family: "Montserrat-Bold";
+    cursor: pointer;
+}
+
+footer .registration-area .header:hover {
+    transition: 0.4s;
+    color: var(--primary50);
 }
 
 footer .registration-area input {
@@ -546,6 +584,11 @@ footer .registration-area button {
     cursor: pointer;
 }
 
+footer .registration-area button:hover {
+    transition: 0.4s;
+    background-color: rgb(0, 166, 0);
+}
+
 footer .footer-download-links {
     position: absolute;
     justify-content: space-between;
@@ -554,7 +597,7 @@ footer .footer-download-links {
     margin: 230px 0 0 0;
 }
 
-footer .footer-download-links .logos {
+footer .footer-download-links .logos a{
     display: flex;
     width: 6.6rem;
     height: 24px;
@@ -562,23 +605,23 @@ footer .footer-download-links .logos {
     margin: 8px 0 0 48px;
 }
 
-footer .footer-download-links .logos img {
+footer .footer-download-links .logos a img {
     width: 1.5rem;
     height: 24px;
     color: white;
 }
 
-footer .footer-download-links .download-links {
+footer .footer-download-links .download-links a{
     display: flex;
     gap: 32px;
     width: 16rem;
     height: 40px;
-    margin: -32px 32px 0 1080px;
+    margin: -32px 32px 0 800px;
 }
 
 footer hr {
     position: absolute;
-    width: 100%;
+    width: 80%;
     height: 1px;
     color: #4F575B;
     margin: 300px 0 0 0;
