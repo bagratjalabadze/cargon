@@ -60,10 +60,142 @@ header .logo {
     max-width: 60%;
 }
 
+/* second section */
+
+.future-soloutions-place {
+    display: flex;
+    width: 82.5rem;
+    height: 380px;
+    justify-content: space-between;
+    gap: 24px;
+    margin: 48px 48px 48px 48px;
+}
+
+.future-soloutions {
+    background-color: var(--primary4);
+    height: 23px;
+    width: 18rem;
+    border-radius: 36px;
+    margin: 48px 16px 48px 0;
+}
+
+.future-soloutions .text {
+    font-size: 0.75rem;
+    color: var(--primary);
+    padding: 4px 8px 4px 8px;
+    font-size: 0.75rem;
+    font-family: "Montserrat-Medium"
+}
+
+.future-soloutions .header-text {
+    display: flex;
+    width: 40.5rem;
+    height: 49px;
+    gap: 15px;
+    margin: 4px 0 32px 0;
+}
+
+.future-soloutions .header-text div{
+    font-size: 2.5rem;
+    font-family: "Montserrat-ExtraBold";
+}
+
+.future-soloutions .header-text .green-word {
+    color: var(--primary);
+}
+
+.main-text {
+    font-size: 1rem;
+    font-family: "Montserrat-Light";
+    line-height: 20px;
+    gap: 1.5rem;
+    width: 40.5rem;
+    height: 100px;
+}
+
+.btn-future-soloutions {
+    margin: 32px 0 0 0;
+    width: 10.3rem;
+    height: 40px;
+    border-radius: 4px;
+    border: 1px solid var(--primary);
+    background-color: white;
+    color: var(--primary);
+    font-size: 1rem;
+    gap: 8px;
+    font-family: "Montserrat-Light";
+    cursor: pointer;
+}
+
+.future-soloutions a i {
+    color: var(--primary);
+    height: 16px;
+    width: 1rem;
+    margin: 0 0 0 8px;
+}
+
+.ship {
+    width: 40.5rem;
+    height: 100%;
+    border-radius: 8px;
+}
+
+/* third section */
+
+.central-placed-information {
+    display: flex;
+    width: 82.5rem;
+    height: 248px;
+    margin: 0 60px 0 60px;
+    gap: 24px;
+    background-color: #2B353A;
+    border-radius: 33px;
+    padding: 48px 24px 48px 24px;
+}
+
+.central-placed-information div {
+    width: 25.25rem;
+    height: 160px;
+    gap: 12px;
+}
+
+.central-placed-information div img {
+    width: 3.5rem;
+    height: 48px;
+    color: var(--primary);
+    margin: 0 0 0 160px;
+}
+
+.central-placed-information div .header {
+    width: 25.25rem;
+    height: 24px;
+    gap: 4px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 20px;
+    color: white;
+    margin: 16px 0 12px 80px;
+}
+
+.central-placed-information div .main-text {
+    align-items: center;
+    width: 25.25rem;
+    height: 60px;
+    font-size: 16px;
+    line-height: 20px;
+    font-family: "Montserrat-Medium";
+    color: #E1E1E1;
+    display: flex;
+    justify-content: center;
+    margin: 0 12px 0 12px;
+}
+
+/* forth section */
+
 .customers-support {
     display: flex;
     gap: 50px;
     justify-content: space-between;
+    margin: 48px 48px 48px 48px;
 }
 
 .customers-support .banner-place {
@@ -72,6 +204,7 @@ header .logo {
 
 .customers-support .banner-place img {
     width: 100%;
+    height: 100%;
 }
 
 .customers-support .action-area {
@@ -127,8 +260,6 @@ header .logo {
     font-size: 1rem;
 }
 
-.countries-drop-down .selected-option .arrow {}
-
 .countries-drop-down .options {
     width: 81%;
     height: 254px;
@@ -168,591 +299,316 @@ header .logo {
     font-family: "Montserrat-Medium";
 }
 
-
-/* 
-.button {
-    height: 32px;
-    width: 114px;
-    background-color: rgb(34, 230, 0);
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 8px;
-}
-
-.button a {
-    color: aliceblue;
-}
-
-.icons {
-    display: flex;
-    width: 44px;
-    height: 20px;
-    margin-left: 12px;
-    justify-content: center;
-    align-items: center;
-    gap: 4px;
-}
-
-.icons i {
-    width: 20px;
-    height: 20px;
-    color: black;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.icons a {
-    width: 20px;
-    height: 16px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-
-
-
-
-.secondpart {
-    width: 1440px;
-    height: 476px;
-    gap: 48px;
-    margin-top: 30px;
-}
-
-.textsofsecondpart {
-    width: 648px;
-    height: 280px;
-    gap: 32px;
-}
-
-.innovative {
-    width: 648px;
-    height: 280px;
-    gap: 32px;
-}
-
-.inntext {
-    margin-top: 75px;
-    width: 273px;
-    height: 23px;
-    border-radius: 36px;
-    gap: 10px;
-    background-color: #F0FCF7;
-    font-size: 14px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.sea {
-    display: flex;
-    gap: 15px;
-    margin-top: 0px;
-    width: 648px;
-    height: 49px;
-    margin-top: -20px;
-}
-
-.sea h1 {
-    font-size: 40px;
-}
-
-.fiveline {
-    width: 648px;
-    height: 100px;
-    gap: 24px;
-    margin-top: -190px;
-}
-
-.fiveline a {
-    font-weight: 400;
-    size: 16px;
-    line-height: 20px;
-}
-
-.solution {
-    color: rgb(54, 181, 62);
-}
-
-.button2 {
-    display: flex;
-    border: 1px solid #00B56C;
-    gap: 15px;
-    width: 166px;
-    height: 40px;
-    align-items: center;
-    justify-content: center;
-    border-radius: 4px;
-    gap: 8px;
-}
-
-.getstarted2 {
-    text-decoration: none;
-    color: #00B56C;
-    gap: 8px;
-}
-
-.photoofship {
-    border-radius: 8px;
-    width: 648px;
-    height: 380px;
-}
-
-.secondpart {
-    display: flex;
-    padding-top: 50px;
-    gap: 48px;
-    justify-content: center;
-    width: 1440px;
-    height: 476px;
-}
-
-.textsofsecondpart {
-    width: 648px;
-    height: 280px;
-    gap: 32px;
-}
-
-
-.centralpart {
-    margin-top: -50px;
-    width: 1320px;
-    height: 248px;
-    margin-left: 60px;
-    border-radius: 33px;
-    padding: 48px, 0px, 48px, 0px;
-    gap: 24px;
-    background: var(--primary-content, #2B353A);
-    display: flex;
-}
-
-.seafreight {
-    width: 404.33px;
-    height: 160px;
-    gap: 12px;
-    padding-top: 40px;
-}
-
-.seafreight svg {
-    height: 48px;
-    width: 56.62px;
-    margin-left: 180px;
-}
-
-.seafreight h2 {
-    height: 24px;
-    width: 404.33px;
-    gap: 4px;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.seafreight a {
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
-}
-
-
-.contact {
-    display: flex;
-    width: 1440px;
-    height: 519px;
-    margin-top: 50px;
-    gap: 100px;
-    padding-left: 60px;
-}
-
-.thirdphoto {
-    width: 685px;
-    height: 423px;
-    border-radius: 8px;
-}
-
-.title {
-    width: 585px;
-    height: 423px;
-    gap: 24px;
-}
-
-.letstalk {
-    width: 72px;
-    height: 20px;
-    margin-left: 8px;
-}
-
-.content {
-    width: 403px;
-    height: 75px;
-    gap: 16px;
-}
-
-.box {
-    width: 12px;
-    height: 12px;
-    background-color: #00B56C;
-}
-
-.boxandtext {
-    width: 90px;
-    height: 20px;
-    display: flex;
-    align-items: center;
-    margin-top: 5px;
-}
-
-.getin {
-    width: 333px;
-    height: 39px;
-    font-size: 35px;
-    margin-top: 8px;
-}
-
-.stayin {
-    width: 585px;
-    height: 36px;
-}
-
-.stayin a {
-    font-weight: 400;
-    size: 14px;
-    line-height: 18px;
-}
-
-.way {
-    margin-top: 5px;
-}
-
-.frame {
-    width: 600px;
-    height: 221px;
-    gap: 16px;
-}
-
-body {
-    background-color: #FFFFFF;
-}
-
-.container {
-    max-width: 260px;
-    height: 254px;
-    border-radius: 8px;
-    border-radius: 1px solid black;
-    margin-top: 20px;
-}
-
-.custom-select {
-    width: 260px;
-    padding: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-    background-color: white;
-    appearance: none;
-    background-position: right 10px center;
-    background-repeat: no-repeat;
-    background-size: 12px;
-    cursor: pointer;
-    background-image: url('data:image/svg+xml;charset=US-ASCII,%3Csvg%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22none%22%20stroke%3D%22%23333%22%20stroke-width%3D%222%22%20stroke-linecap%3D%22round%22%20stroke-linejoin%3D%22round%22%3E%3Cpath%20d%3D%22M4%206l4%204%204-4%22/%3E%3C/svg%3E');
-}
-
-.custom-select option {
-    padding: 10px;
-    background-repeat: no-repeat;
-    background-position: left center;
-    background-size: 20px 20px;
-}
-
-.tbilisi {
-    width: 600px;
-    height: 161px;
-    padding: 8px, 0px, 9px, 0px;
-    gap: 12px;
-    margin-top: -10px;
-}
-
-.tbilisioffice {
-    width: 600px;
+.header-text {
+    width: 9.75rem;
     height: 29px;
-    padding: 8px, 12px, 0px, 12px;
     gap: 10px;
-    font-size: 27px;
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    margin: 24px 0px 12px 12px;
 }
 
-.adress {
-    width: 600px;
-    height: 104px;
-    gap: 8px;
-}
+/* section of mail */
 
-.addinfos {
-    width: 600px;
-    height: 104px;
-    gap: 8px;
-    margin-top: -30px;
-}
-
-.textsofmail {
-    margin-left: 30px;
-}
-
-.textsofmail a {
+.mail-info {
     display: flex;
-    margin-top: -20px;
 }
 
-.meili svg {
-    margin-top: 25px;
-}
-
-.lokacia svg {
-    margin-top: 25px;
-}
-
-.meili {
+.box-of-mail-logo {
+    width: 3rem;
+    height: 48px;
+    background-color: rgba(0, 181, 108, 0.1);
+    border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.lokacia {
+.mail-logo {
+    width: 1.14rem;
+    height: 14px;
+    color: var(--primary);
+}
+
+.mail-info .texts .header {
+    width: 4.5rem;
+    height: 15px;
+    margin: 2.5px 0px 8px 19px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 12px
+}
+
+.mail-info .texts .main-text {
+    width: 7.8rem;
+    height: 20px;
+    margin: 0px 0px 2.5px 19px;
+    font-family: "Montserrat-Light";
+    font-size: 12px
+}
+
+/* section of location */
+
+.location-info {
+    display: flex;
+    margin: 8px 0 0 0;
+}
+
+.box-of-location-logo {
+    width: 3rem;
+    height: 48px;
+    background-color: rgba(0, 181, 108, 0.1);
+    border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.sakontaqto {
+.location-logo {
+    width: 1.14rem;
+    height: 14px;
+    color: var(--primary);
+}
+
+.location-info .texts .header {
+    width: 6rem;
+    height: 15px;
+    margin: 2.5px 0px 8px 19px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 12px
+}
+
+.location-info .texts .main-text {
+    width: 10.2rem;
+    height: 20px;
+    margin: 0px 0px 2.5px 19px;
+    font-family: "Montserrat-Light";
+    font-size: 14px
+}
+
+/* section of contact */
+
+.contact-info {
+    display: flex;
+    margin: -105px 0 0px 330px;
+}
+
+.box-of-contact-logo {
+    width: 3rem;
+    height: 48px;
+    background-color: rgba(0, 181, 108, 0.1);
+    border-radius: 50%;
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
-.sakontaqto svg {
-    margin-top: 25px;
+.contact-logo {
+    width: 1.14rem;
+    height: 14px;
+    color: var(--primary);
 }
 
-.textsofcall {
-    margin-left: 25px;
+.contact-info .texts .header {
+    width: 7.6rem;
+    height: 15px;
+    margin: 2.5px 0px 8px 19px;
+    font-family: "Montserrat-SemiBold";
+    font-size: 12px
 }
 
-.textsofcall h4 {
-    display: flex;
-    margin-top: 40px;
+.contact-info .texts .main-text {
+    width: 7.1rem;
+    height: 18px;
+    margin: 4px 0px 2.5px 19px;
+    font-family: "Montserrat-Light";
+    font-size: 14px
 }
 
-.textsofcall div {
-    margin-top: -20px;
-}
-
-.textsofcall a {
-    display: flex;
-}
-
-.informations {
-    display: flex;
-}
-
-.buttons {
-    background-color: #00B56C;
-    width: 155px;
+.custumer-support-button {
     height: 32px;
+    width: 9.7rem;
+    background-color: var(--primary);
+    color: white;
     border-radius: 4px;
     gap: 8px;
-    margin-top: 38px;
+    padding: 8px 16px 8px 16px;
+    font-size: 14px;
+    margin: 136px 0 0 -520px;
+    font-family: "Montserrat-Medium";
+    cursor: pointer;
 }
 
-.talkto {
-    justify-content: center;
-    display: flex;
-    text-decoration: none;
-    color: white;
-    padding-top: 5px;
-}
+/* footer part */
 
-.sakontaqto {
-    margin-left: 50px;
-}
-
-.footerph {
+footer .bottom-area {
     width: 100%;
     height: 375px;
+    position: absolute;
 }
 
-.ftcargon {
+footer .footer_logo {
     position: absolute;
     display: flex;
-    margin-top: -350px;
-    margin-left: 60px;
+    width: 11rem;
+    height: 48px;
+    margin: 24px 0 0 48px;
 }
 
-.logoss {
+footer .bottom-service {
     position: absolute;
+    color: white;
+    margin: 24px 0 0 270px;
+}
+
+footer .bottom-service .header {
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    width: 6rem;
+    height: 29px;
+    gap:10px;
+    margin: 0 0 14px 0;
+}
+
+footer .bottom-service .text {
+    font-family: "Montserrat-Regular";
     height: 24px;
-    width: 104px;
-    gap: 16px;
-    display: flex;
-    margin-top: -100px;
-    margin-left: 60px;
-    display: flex;
+    gap: 8px;
+    width: 7rem;
+    font-size: medium;
+    margin: 2px 0 2px 0;
 }
 
-.logoss i {
-    width: 50px;
-    height: 50px;
-    color: white;
-    display: flex;
-}
-
-.road {
-    width: 354px;
-    height: 125px;
-    gap: 12px;
-}
-
-.road h4 {
+footer .bottom-company-infos {
     position: absolute;
     color: white;
-    margin-top: -345px;
-    margin-left: 330px;
-    font-size: 25px;
+    margin: 24px 0 0 565px;
 }
 
-.roadtexts {
+footer .bottom-company-infos .header {
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
+    width: 6rem;
+    height: 29px;
+    gap:10px;
+    margin: 0 0 14px 0;
+}
+
+footer .bottom-company-infos .text {
+    font-family: "Montserrat-Regular";
+    height: 24px;
+    gap: 8px;
+    width: 12rem;
+    font-size: 16px;
+    margin: 2px 0 2px 0;
+}
+
+footer .registration-area {
     position: absolute;
-    color: white;
-    margin-top: -300px;
-    margin-left: 330px;
-}
-
-.insurance {
-    width: 354px;
-    height: 209px;
-    gap: 12px;
-    margin-top: -500px;
-    margin-left: 700px;
-}
-
-.insurance h4 {
-    color: white;
-    font-size: 25px;
-}
-
-.instexts {
-    color: white;
-}
-
-.stayup {
-    position: absolute;
-    width: 300px;
+    width: 19rem;
     height: 141px;
     gap: 12px;
-    margin-left: 1120px;
-    margin-top: -240px;
-    color: white;
+    margin: 24px 0 0 1080px;
 }
 
-.stayup h4 {
+footer .registration-area .header {
     color: white;
-    font-size: 25px;
+    width: 12rem;
+    height: 33px;
+    gap: 4px;
+    font-size: 24px;
+    font-family: "Montserrat-Bold";
 }
 
-.entermail {
-    width: 300px;
+footer .registration-area input {
+    width: 19rem;
     height: 44px;
-    background-color: white;
     border-radius: 4px;
     border: 1px solid #A8ACAE;
-    display: flex;
-    align-items: center;
-}
-
-.entermail a {
     color: #A8ACAE;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
+    font-size: 16px;
+    padding: 0 0 0 8px;
+    font-family: "Montserrat-Medium";
+    margin: 16px 0 16px 0;
 }
 
-.subscribe {
-    margin-top: 20px;
-    width: 300px;
-    height: 44px;
-    background-color: #00B56C;
-    border-radius: 4px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.subscribe a {
-    color: white;
-    display: flex;
-    align-items: center;
-    padding-left: 15px;
-    width: 81px;
-    height: 20px;
-    gap: 8px;
-}
-
-.downloadlogos {
-    display: flex;
-    width: 302px;
+footer .registration-area button {
+    background-color: var(--primary);
+    width: 19rem;
     height: 40px;
-    gap: 32px;
-    margin-left: 1120px;
+    border-radius: 4px;
+    gap: 8px;
+    font-size: medium;
+    font-family: "Montserrat-Medium";
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    cursor: pointer;
 }
 
-.line {
+footer .footer-download-links {
     position: absolute;
-    height: 2px;
-    width: 1500px;
-    background-color: #4F575B;
-    margin-top: 20px;
-}
-
-.lastpart {
-    width: 1439px;
-    height: 56px;
     justify-content: space-between;
+    width: 100%;
+    height: 40px;
+    margin: 230px 0 0 0;
 }
 
-.lastpart a {
-    margin-top: 45px;
-    margin-left: 60px;
+footer .footer-download-links .logos {
+    display: flex;
+    width: 6.6rem;
+    height: 24px;
+    gap: 24px;
+    margin: 8px 0 0 48px;
+}
+
+footer .footer-download-links .logos img {
+    width: 1.5rem;
+    height: 24px;
+    color: white;
+}
+
+footer .footer-download-links .download-links {
+    display: flex;
+    gap: 32px;
+    width: 16rem;
+    height: 40px;
+    margin: -32px 32px 0 1080px;
+}
+
+footer hr {
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    color: #4F575B;
+    margin: 300px 0 0 0;
+}
+
+footer .last-part {
+    position: absolute;
+    justify-content: space-between;
+    width: 100%;
+    margin: 330px 0 0 0;
+}
+
+footer .last-part .text {
     display: flex;
     align-items: center;
-    font-weight: 500;
-    font-size: 12px;
-    line-height: 14.63px;
     color: #EAEBEB;
+    margin: 0 0 0 48px;
 }
 
-.english {
+footer .last-part .bottom-right-language {
     display: flex;
-    width: 92px;
-    height: 24px;
-    gap: 16px;
-    margin-left: 1300px;
     align-items: center;
+    color: white;
+    margin: -20px 0 0 1300px;
+    gap: 4px;
 }
 
-.english .fa-solid {
+footer .last-part .bottom-right-language img {
+    width: 1.25rem;
+    height: 20px;
     color: white;
-    width: 24px;
-    height: 24px;
-    margin-bottom: 25px;
-    margin-left: 30px;
 }
 
-.english a {
-    color: white;
-    margin-bottom: 80px;
-    margin-left: -10px;
-} */
