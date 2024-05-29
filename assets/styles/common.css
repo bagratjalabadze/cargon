@@ -15,4 +15,13 @@
 
 .btn-primary.large {
     width: 300px;
+    height: 44px;
+}
+
+.primary-color {
+    color: var(--primary);
+}
+
+.container-peding {
+    padding: 0 var(--containerPeding);
 }
