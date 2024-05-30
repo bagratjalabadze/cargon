@@ -24,38 +24,38 @@
         max-width: 100%;
     }
 
-    .customers-support {
+    .container {
         flex-direction: column;
     }
 
-    .future-soloutions-place {
+    .content {
         width: 50rem;
         height: 250px;
         margin: 20px 20px 20px 20px;
         gap: 10px;
     }
       
-    .future-soloutions {
+    .content {
         height: 10px;
         width: 10rem;
         border-radius: 36px;
         margin: 30px 8px 20px 0;  
     }
 
-    .future-soloutions .text{
+    .content .text-left{
         font-size: 0.40rem;
         width: 40rem;
         height: 200px;
     }
 
-    .future-soloutions .header-text div{
+    .content .header-text div{
         width: 20rem;
         height: 22px;
         margin: -180px 0 15px 0;
         font-size: 1.4rem;
     }
     
-    .future-soloutions .header-text .green-word {
+    .content .header-text .primary-color {
         margin: -180px 320px 0 0;
     }
 
@@ -87,7 +87,7 @@
         margin: 0 0 0 4px;
     }
     
-    .central-placed-information {
+    .wrapper {
         width: 50.5rem;
         height: 140px;
         margin: 0 20px 0 20px;
@@ -96,19 +96,19 @@
         padding: 24px 12px 24px 12px;
     }
 
-    .central-placed-information div {
+    .wrapper div {
         width: 16rem;
         height: 100px;
         gap: 6px;
     }
     
-    .central-placed-information div img {
+    .wrapper div img {
         width: 1.7rem;
         height: 24px;
         margin: 0 0 0 60px;
     }
     
-    .central-placed-information div .header {
+    .wrapper div .header {
         width: 12rem;
         height: 12px;
         gap: 2px;
@@ -116,7 +116,7 @@
         margin: 8px 0 10px 20px;
     }
 
-    .central-placed-information .between-box .header {                  
+    .wrapper .between-box .header {                  
         width: 12rem;
         height: 12px;
         gap: 2px;
@@ -125,7 +125,7 @@
     }
     
 
-    .central-placed-information div .main-text {
+    .wrapper div .main-text {
         width: 12rem;
         height: 30px;
         font-size: 8px;
@@ -133,43 +133,43 @@
         margin: 0 6px 0 6px;
     }
 
-    .customers-support {
+    .content-wrapper {
         display: flex;
         gap: 14px;
         margin: 24px 24px 24px 24px;
         height: 200;
     }
 
-    .customers-support .banner-place {
+    .content-wrapper .banner-place {
         width: 28rem;
         height: 260px;
     }
 
-    .customers-support .banner-place img {
+    .content-wrapper .banner-place img {
         width: 28rem;
         height: 260px;
     }
 
-    .customers-support .action-area {
+    .content-wrapper .action-area {
         width: 10rem;
         height: 110px;
     }
 
-    .customers-support .action-area .box {
+    .content-wrapper .action-area .box {
         width: 6px;
         height: 6px;
     }
     
-    .customers-support .action-area .text {
+    .content-wrapper .action-area .text {
         font-size: 0.5rem;
     }   
 
-    .customers-support .action-area .message {
+    .content-wrapper .action-area .message {
         font-size: 1rem;
         margin: 8px 0 5px 0px;
     }
     
-    .customers-support .action-area .description {
+    .content-wrapper .action-area .description {
         font-size: 0.4rem;
     }
     

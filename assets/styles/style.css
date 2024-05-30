@@ -61,7 +61,7 @@ header .logo {
 
 /* second section */
 
-.future-soloutions-place {
+.container {
     display: flex;
     max-width: 1440px;
     width: 100%;
@@ -70,11 +70,11 @@ header .logo {
     margin-top: 48px;
 }
 
-.future-soloutions-place .future-soloutions {
+.container .content {
     padding-top: 48px
 }
 
-.future-soloutions-place .future-soloutions .text {
+.container .content .text-left {
     background-color: var(--secondary);
     border-radius: 36px;
     padding: 4px 8px;
@@ -83,25 +83,23 @@ header .logo {
     font-family: "Montserrat-Medium"
 }
 
-.future-soloutions-place .future-soloutions .header-text {
+.container .content .header-text {
     display: flex;
     gap: 15px;
     margin-top: 4px;
 }
 
-.future-soloutions-place .future-soloutions .header-text div {
+.container .content .header-text div {
     font-size: 2.5rem;
     font-family: "Montserrat-ExtraBold";
 }
 
-
-
-.future-soloutions-place .future-soloutions .main-text {
+.container .content .main-text {
     font-family: "Montserrat-Light";
     margin: 32px 0;
 }
 
-.future-soloutions-place .future-soloutions a button {
+.container .content a button {
     width: 166px;
     height: 40px;
     border-radius: 4px;
@@ -111,9 +109,10 @@ header .logo {
     gap: 8px;
     justify-content: center;
     color: var(--primary);
+    cursor: pointer;
 }
 
-.future-soloutions a i {
+.content a i {
     color: var(--primary);
     margin: 0 8px;
 }
@@ -126,7 +125,7 @@ header .logo {
 
 /* third section */
 
-.container-peding .central-placed-information {
+.container-peding .wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
@@ -135,10 +134,10 @@ header .logo {
     gap: 24px;
     background-color: #2B353A;
     border-radius: 33px;
-    padding: 48px 24px;
+    padding: 24px 24px;
 }
 
-.container-peding .central-placed-information>.item {
+.container-peding .wrapper>.item {
     flex: 1;
     gap: 12px;
     display: flex;
@@ -147,11 +146,11 @@ header .logo {
     text-align: center;
 }
 
-.container-peding .central-placed-information .item div{
+.container-peding .wrapper .item div{
     color: white;
 }
 
-.central-placed-information .between-box .header {
+.wrapper .between-box .header {
     width: 50%;
     gap: 4px;
     font-family: "Montserrat-SemiBold";
@@ -159,7 +158,7 @@ header .logo {
     margin: 16px 130px;
 }
 
-.central-placed-information div .main-text {
+.wrapper div .main-text {
     display: flex;
     justify-content: center;
     gap: 32px;
@@ -173,7 +172,7 @@ header .logo {
 
 /* fourth section */
 
-.container .customers-support {
+.container .content-wrapper {
     display: flex;
     width: 100%;
     max-width: 1440px;
@@ -181,42 +180,42 @@ header .logo {
     gap: 48px;
 }
 
-.container .customers-support .banner-place {
+.container .content-wrapper .banner-place {
     flex: 1;
 }
 
-.container .customers-support .banner-place img {
+.container .content-wrapper .banner-place img {
     width: 100%;
     height: 100%;
 }
 
-.container .customers-support .action-area {
+.container .content-wrapper .action-area {
     flex: 1;
 }
 
-.container .customers-support .action-area .title {
+.container .content-wrapper .action-area .title {
     display: flex;
     align-items: center;
 }
 
-.container .customers-support .action-area .box {
+.container .content-wrapper .action-area .box {
     width: 16px;
     height: 16px; 
     background-color: var(--primary);
 }
 
-.container .customers-support .action-area .text {
+.container .content-wrapper .action-area .text {
     font-family: "Montserrat-Medium";
 }
 
-.container .customers-support .action-area .message {
+.container .content-wrapper .action-area .message {
     width: 60%;
     font-size: 2rem; 
     font-family: "Montserrat-Bold";
     margin: 16px 0; 
 }
 
-.container .customers-support .action-area .description {
+.container .content-wrapper .action-area .description {
     width: 100%; 
 }
 
@@ -425,15 +424,20 @@ footer {
 }
 
 .container-peding .texts-box {
-    flex: 1;
     display: flex;
     padding: 24px 0 4px 0;
-    gap: 100px;
+    gap: 40px;
 }
 
 .container-peding .texts-box .footer-logo{
     display: flex;
     align-items: center;
+}
+
+.container-peding .texts-box .bottom-service {
+    margin: 0 50px;
+    max-width: 180px;
+    width: 100%;
 }
 
 .container-peding .texts-box .bottom-service .header {
@@ -445,11 +449,27 @@ footer {
 .container-peding .texts-box .bottom-service .text {
     color: white;
     font-family: "Montserrat-Medium";
-    line-height: 24px;
+    line-height: 20px;
+}
+
+.container-peding .texts-box .bottom-service .text:hover {
+    color: var(--primary);
+    transition: 0.4s;
 }
 
 .container-peding .texts-box .bottom-service .informations-area{
-    padding: 0 170px;
+    max-width: 180px;
+    width: 100%;
+}
+
+.container-peding .texts-box .bottom-service .informations-area a .text {
+    max-width: 180px;
+    width: 100%;
+}
+
+.container-peding .texts-box .authorization-area {
+    gap: 0px;
+    margin: 0 0 0 180px;
 }
 
 .container-peding .texts-box .authorization-area .header {
@@ -471,6 +491,11 @@ footer {
  margin: 16px 0 ;
 }
 
+.container-peding .texts-box .authorization-area a .btn-primary:hover {
+    transition: 0.4s;
+    background-color: rgb(48, 144, 48);
+}
+
 .container-peding .footer-download-links {
     display: flex;
     align-items: center;
@@ -484,7 +509,6 @@ footer {
 } 
 
 .container-peding .copyright {
-    padding: 16px 0;
     display: flex;
     align-items: center;
     color: white;
