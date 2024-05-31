@@ -190,8 +190,9 @@ header .right-panel a:hover {
 }
 
 .container-fourth-section .content-wrapper .banner-place img {
-    width: 100%;
-    height: 100%;
+    width: 685px;
+    height: 423px;
+    border-radius: 8px;
 }
 
 .container-fourth-section .content-wrapper .action-area {
@@ -214,7 +215,6 @@ header .right-panel a:hover {
 }
 
 .container-fourth-section .content-wrapper .action-area .message {
-    width: 60%;
     font-size: 2rem;
     font-family: "Montserrat-Bold";
     margin: 16px 0;
@@ -222,6 +222,12 @@ header .right-panel a:hover {
 
 .container-fourth-section .content-wrapper .action-area .description {
     width: 100%;
+    font-size: 14px;
+}
+
+.container-fourth-section .content-wrapper .action-area .header-text {
+    font-family: "Montserrat-Bold";
+    font-size: 24px;
 }
 
 .container-fourth-section .content-wrapper .action-area .countries-drop-down {
@@ -292,9 +298,10 @@ header .right-panel a:hover {
     font-size: 24px;
 }
 
-/* mail area */
+/* email area */
 
 .container-fourth-section .content-wrapper .action-area .email-area {
+    height: 68px; 
     display: flex;
 }
 
@@ -306,7 +313,7 @@ header .right-panel a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px 0 6px 0;
+    margin: 12px 0 8px 0;
 }
 
 .container-fourth-section .content-wrapper .action-area .email-area .email-wrapper .logo {
@@ -343,7 +350,6 @@ header .right-panel a:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 12px 0 6px 0;
 }
 
 .container-fourth-section .content-wrapper .action-area .location-area .location-wrapper .logo {
@@ -352,7 +358,7 @@ header .right-panel a:hover {
 }
 
 .container-fourth-section .content-wrapper .action-area .location-area .texts {
-    margin: 15px 20px;
+    margin: 0 20px;
 }
 
 .container-fourth-section .content-wrapper .action-area .location-area .texts .header {
@@ -370,7 +376,7 @@ header .right-panel a:hover {
 
 .container-fourth-section .content-wrapper .action-area .contact-area {
     display: flex;
-    margin: -144px 10px;
+    margin: -104px 10px;
     float: right;
 }
 
@@ -404,13 +410,15 @@ header .right-panel a:hover {
     font-size: 14px;
 }
 
+/* button area */
+
 .container-fourth-section .content-wrapper .action-area .custumer-support-button {
     background-color: var(--primary);
     color: white;
     border-radius: 4px;
     padding: 8px 16px;
     font-size: 14px;
-    margin: 15px 0;
+    margin: 30px 0;
     font-family: "Montserrat-Medium";
     cursor: pointer;
 }
@@ -472,7 +480,6 @@ footer {
 
 .container-peding .bottom-wrapper .authorization-area {
     gap: 0px;
-
 }
 
 .container-peding .bottom-wrapper .authorization-area .header {
