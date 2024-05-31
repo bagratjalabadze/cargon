@@ -426,14 +426,15 @@ header .right-panel a:hover {
 
 /* footer part */
 
-footer {
-    margin-top: 48px;
+footer { 
     background-image: url('../images/photos/footer_bg.png');
     background-repeat: no-repeat;
     background-position: center;
     background-position: bottom;
     background-size: 100% 100%;
     width: 100%;
+    height: 375px;
+    margin-top: 24px;
 }
 
 .container-peding .bottom-wrapper {
@@ -445,22 +446,26 @@ footer {
 .container-peding .bottom-wrapper .logo {
     display: flex;
     align-items: center;
+    margin: 0 50px 0 0;
 }
 
 .container-peding .bottom-wrapper .texts-area {
     width: 100%;
 }
 
-.container-peding .bottom-wrapper .texts-area .header {
+.container-peding .bottom-wrapper .texts-area a .header {
     color: white;
     font-family: "Montserrat-Bold";
     font-size: 24px;
+    line-height: 33px;
+    margin: 0 0 8px 0;
 }
 
 .container-peding .bottom-wrapper .texts-area .text {
     color: white;
     font-family: "Montserrat-Medium";
-    line-height: 20px;
+    line-height: 24px;
+    margin: 4px 0;
 }
 
 .container-peding .bottom-wrapper .texts-area .text:hover {
@@ -510,11 +515,13 @@ footer {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin: 4px 0;
 }
 
 .container-peding .line {
     height: 1px;
     width: 100%;
+    margin: 24px 0;
 }
 
 .container-peding .copyright {
