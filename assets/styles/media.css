@@ -32,7 +32,7 @@
     .third-section .wrapper,
     .forth-section .content-wrapper,
     footer .texts-box,
-    .container-peding .footer-download-links {
+    .container-peding .footer-download-links, .container-fourth-section .content-wrapper, .container-peding-third-section .wrapper {
         flex-direction: column;
     }
 
